@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Art Showcase</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100">
+    <header class="bg-white shadow-md fixed w-full top-0 left-0 z-50">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="flex items-center">
+                <img src="images/logo.png" alt="Art Showcase Logo" class="h-10 mr-3">
+                <h1 class="text-xl font-bold">Art Showcase</h1>
+            </div>
+            <nav>
+                <ul class="flex space-x-6">
+                    <li><a href="gallery.html" class="text-gray-700 hover:text-gray-900">Gallery</a></li>
+                    <li><a href="#about" class="text-gray-700 hover:text-gray-900">About</a></li>
+                    <li><a href="#contact" class="text-gray-700 hover:text-gray-900">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <div class="flex mt-16">
+        <!-- Left Sidebar -->
+        <aside class="w-64 bg-white shadow-md h-screen fixed top-16 left-0 p-6">
+            <h2 class="text-xl font-bold mb-4">Categories</h2>
+            <ul class="space-y-3">
+                <li><a href="#" class="text-gray-700 hover:text-gray-900">Paintings</a></li>
+                <li><a href="#" class="text-gray-700 hover:text-gray-900">Sculptures</a></li>
+                <li><a href="#" class="text-gray-700 hover:text-gray-900">Photography</a></li>
+                <li><a href="#" class="text-gray-700 hover:text-gray-900">Digital Art</a></li>
+            </ul>
+        </aside>
+        
+        <!-- Main Content -->
+        <main class="container mx-auto px-6 py-12 ml-64 mr-64">
+            <section id="gallery">
+                <h2 class="text-2xl font-bold mb-6">Gallery</h2>
+                <div class="grid grid-cols-z sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-2 gap-6">
+                    <a href="https://images.squarespace-cdn.com/content/v1/56c207401d07c00b66446af9/4270c503-4b52-473e-b3d1-6509d45225fb/artwork+art+studio+Asheville"><img src="art1.jpg" alt="Artwork 1" class="w-full h-64 object-cover rounded-lg shadow-md"></a>
+                    <img src="art2.jpg" alt="Artwork 2" class="w-full h-64 object-cover rounded-lg shadow-md">
+                    <img src="art3.jpg" alt="Artwork 3" class="w-full h-64 object-cover rounded-lg shadow-md">
+                    <img src="art4.jpg" alt="Artwork 4" class="w-full h-64 object-cover rounded-lg shadow-md">
+                    <a href="https://images.squarespace-cdn.com/content/v1/56c207401d07c00b66446af9/4270c503-4b52-473e-b3d1-6509d45225fb/artwork+art+studio+Asheville"><img src="art1.jpg" alt="Artwork 1" class="w-full h-64 object-cover rounded-lg shadow-md"></a>
+                    <img src="art2.jpg" alt="Artwork 2" class="w-full h-64 object-cover rounded-lg shadow-md">
+                    <img src="art3.jpg" alt="Artwork 3" class="w-full h-64 object-cover rounded-lg shadow-md">
+                </div>
+            </section>
+            
+            <section id="about" class="mt-12">
+                <h2 class="text-2xl font-bold mb-4">About</h2>
+                <p class="text-gray-700">Welcome to the Art Showcase, where we feature amazing artworks from various artists. Explore and enjoy creativity at its best.</p>
+            </section>
+            
+            <section id="contact" class="mt-12">
+                <h2 class="text-2xl font-bold mb-4">Contact</h2>
+                <p class="text-gray-700">For inquiries, please email us at <a href="mailto:info@artshowcase.com" class="text-blue-500">info@artshowcase.com</a>.</p>
+            </section>
+        </main>
+        
+        <!-- Right Sidebar -->
+        <aside class="w-64 bg-white shadow-md h-screen fixed top-16 right-0 p-6">
+            <h2 class="text-xl font-bold mb-4">Extra</h2>
+            <ul class="space-y-3">
+                <li><a href="#" class="text-gray-700 hover:text-gray-900">Upcoming Events</a></li>
+                <li><a href="#" class="text-gray-700 hover:text-gray-900">Featured Artists</a></li>
+                <li><a href="#" class="text-gray-700 hover:text-gray-900">Art News</a></li>
+                <li><a href="#" class="text-gray-700 hover:text-gray-900">Workshops</a></li>
+            </ul>
+        </aside>
+    </div>
+</body>
+</html>
